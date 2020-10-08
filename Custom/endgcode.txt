@@ -1,8 +1,5 @@
 ;*** Message and End Tones
 M117 Print Completed
-M300 S440 P200 ; Make Print Completed Tones
-M300 S660 P250
-M300 S880 P300
 ;*** End Message and End Tones
 
 G1 X0 Y{machine_depth} ;Present print
