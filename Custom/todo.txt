@@ -1,0 +1,7 @@
+BLtouch ABL "doesnt work", I feel the z-rod moving but the gap still varies.
+
+- I've made sure gantrys are lined up. X-gantry moves freely with no wheels to tight or loose.
+
+Reflash firmware (follow plain steps on internet)
+
+Look into BMG clone.

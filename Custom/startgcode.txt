@@ -3,11 +3,12 @@ M140 S{material_bed_temperature_layer_0} ; start preheating the bed
 M104 S150 ﻿T0 ; start preheating hotend
 G92 E0 ; Reset Extruder
 G28 ; Home all axes
-M420 S1 ; Enable ABL mesh
 M190 S{material_bed_temperature_layer_0} ; heat to Cura Bed setting
-G29 ; ABL
+M155 S30 ; reduce temperature reporting rate to reduce output pollution
+@BEDLEVELVISUALIZER ; tell the plugin to watch for reported mesh
+G29    ; run bilinear probing
+M155 S3  ; reset temperature reporting
 M109 S{material_print_temperature_layer_0} ﻿T0 ; heat to Cura Hotend
-M300 S1000 P500 ; chirp to indicate starting to print
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
 G1 X0.1 Y20 Z0.3 F5000.0 ; Move to start position
 G1 X0.1 Y200.0 Z0.3 F1500.0 E15 ; Draw the first line
