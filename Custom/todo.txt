@@ -1,7 +1,12 @@
-BLtouch ABL "doesnt work", I feel the z-rod moving but the gap still varies.
+Firmware re-flashed and checked
+Gantry leveled
+All wheels and concentric nuts fixed
+Belts are tightened
 
-- I've made sure gantrys are lined up. X-gantry moves freely with no wheels to tight or loose.
+Fix flow - https://teachingtechyt.github.io/calibration.html#flow
 
-Reflash firmware (follow plain steps on internet)
 
-Look into BMG clone.
+Do flow test for single line
+Re-calibrate correct z offset
+Test benchie.
+Unscrew part cooling fan, maybe get new one?
