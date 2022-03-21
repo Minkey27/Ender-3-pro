@@ -5,8 +5,7 @@ Belts are tightened
 
 Fix flow - https://teachingtechyt.github.io/calibration.html#flow
 
-
-Do flow test for single line
-Re-calibrate correct z offset
-Test benchie.
-Unscrew part cooling fan, maybe get new one?
+Linear advance
+Replace nozzle
+Extruder tuber fix
+M503 output.
