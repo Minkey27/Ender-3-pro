@@ -2,6 +2,13 @@
 M117 Print Completed
 ;*** End Message and End Tones
 
+G92 E0; Reset extruder
+G1 E-2 F1500; Retract a bit.
+
+G91; Relative mode
+G1 Z2; Move up 2mm
+G90; Absolute mode
+
 G1 X0 Y{machine_depth} ;Present print
 M106 S0 ;Turn-off fan
 M104 S0 ;Turn-off hotend
