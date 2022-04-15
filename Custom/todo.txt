@@ -1,11 +1,9 @@
-Firmware re-flashed and checked
-Gantry leveled
-All wheels and concentric nuts fixed
-Belts are tightened
-
 Fix flow - https://teachingtechyt.github.io/calibration.html#flow
 
-Linear advance
-Replace nozzle
-Extruder tuber fix
-M503 output.
+
+Get first layer right
+Test flow
+Print swivels
+Order plexiglass
+
+Print spoolholder stuff.

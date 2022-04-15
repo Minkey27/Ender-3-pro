@@ -1,0 +1,6 @@
+Filament settings:
+
+Orange (REAL):
+Flow: 96.79
+Temp: 190
+Retraction: 4

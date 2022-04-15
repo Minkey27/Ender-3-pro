@@ -5,17 +5,17 @@ G92 E0 ; Reset Extruder
 G28 ; Home all axes
 M190 S{material_bed_temperature_layer_0} ; heat to Cura Bed setting
 M155 S30 ; reduce temperature reporting rate to reduce output pollution
-;@BEDLEVELVISUALIZER ; tell the plugin to watch for reported mesh
-;G29    ; run bilinear probing
-M420 S1; Use mesh!
+@BEDLEVELVISUALIZER ; tell the plugin to watch for reported mesh
+G29    ; run bilinear probing
+;M420 S1; Use mesh!
 M155 S3  ; reset temperature reporting
 M109 S{material_print_temperature_layer_0} ﻿T0 ; heat to Cura Hotend
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
 M300 S440 P200; Play sound
-G1 X10.1 Y30 Z0.3 F5000.0 ; Move to start position
+G1 X10.1 Y50 Z0.3 F5000.0 ; Move to start position
 G1 X10.1 Y190.0 Z0.3 F1500.0 E15 ; Draw the first line
 G1 X10.4 Y190.0 Z0.3 F5000.0 ; Move to side a little
-G1 X10.4 Y30 Z0.3 F1500.0 E30 ; Draw the second line
+G1 X10.4 Y50 Z0.3 F1500.0 E30 ; Draw the second line
 G92 E0 ; Reset Extruder
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
-G1 X15 Y30 Z0.3 F5000.0 ; Move over to prevent blob squish
+G1 X15 Y50 Z0.3 F5000.0 ; Move over to prevent blob squish
